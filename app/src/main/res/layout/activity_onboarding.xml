@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAF7FB">
+
+    <!-- Background illustration -->
+    <ImageView
+        android:id="@+id/imageOnboarding"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pinik_splash_background"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Light overlay for text readability -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="330dp"
+        android:background="#40FFFFFF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Airplane icon -->
+    <TextView
+        android:id="@+id/textAirplane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="38dp"
+        android:rotation="-20"
+        android:text="✈"
+        android:textColor="@color/pinik_green"
+        android:textSize="38sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Main heading -->
+    <TextView
+        android:id="@+id/textOnboardingTopTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="36dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Welcome to Pinik"
+        android:textColor="#10231D"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Main description -->
+    <TextView
+        android:id="@+id/textOnboardingTopDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="36dp"
+        android:lineSpacingExtra="5dp"
+        android:text="The perfect app for friends who love to travel together."
+        android:textColor="#42544E"
+        android:textSize="21sp"
+        app:layout_constraintTop_toBottomOf="@id/textOnboardingTopTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- White bottom card -->
+    <LinearLayout
+        android:id="@+id/onboardingBottomCard"
+        android:layout_width="0dp"
+        android:layout_height="370dp"
+        android:background="@drawable/bg_onboarding_card"
+        android:elevation="12dp"
+        android:orientation="vertical"
+        android:paddingStart="32dp"
+        android:paddingTop="14dp"
+        android:paddingEnd="32dp"
+        android:paddingBottom="34dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Small handle -->
+        <View
+            android:layout_width="45dp"
+            android:layout_height="6dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_onboarding_handle" />
+
+        <TextView
+            android:id="@+id/textOnboardingCardTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Plan. Decide. Explore."
+            android:textColor="#10231D"
+            android:textSize="27sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textOnboardingCardDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:lineSpacingExtra="5dp"
+            android:text="All your tour plans, votes, locations, expenses and memories in one place."
+            android:textColor="#53645E"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- Indicators and button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/layoutIndicators"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/dotOne"
+                    android:layout_width="28dp"
+                    android:layout_height="9dp"
+                    android:background="@drawable/bg_dot_active" />
+
+                <View
+                    android:id="@+id/dotTwo"
+                    android:layout_width="9dp"
+                    android:layout_height="9dp"
+                    android:layout_marginStart="12dp"
+                    android:background="@drawable/bg_dot_inactive" />
+
+                <View
+                    android:id="@+id/dotThree"
+                    android:layout_width="9dp"
+                    android:layout_height="9dp"
+                    android:layout_marginStart="12dp"
+                    android:background="@drawable/bg_dot_inactive" />
+
+                <View
+                    android:id="@+id/dotFour"
+                    android:layout_width="9dp"
+                    android:layout_height="9dp"
+                    android:layout_marginStart="12dp"
+                    android:background="@drawable/bg_dot_inactive" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonOnboardingNext"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:background="@drawable/bg_primary_button"
+                android:backgroundTint="@null"
+                android:text="Next"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

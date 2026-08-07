@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Pinik" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Pinik" parent="Base.Theme.Pinik" />
+    <style name="Theme.Pinik.Splash" parent="Theme.Pinik">
+
+        <!-- Remove title/action bar -->
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- Make splash full screen -->
+        <item name="android:windowFullscreen">true</item>
+
+        <!-- System navigation bar -->
+        <item name="android:navigationBarColor">#001B14</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Prevent white screen before splash loads -->
+        <item name="android:windowBackground">#001B14</item>
+
+    </style>
+</resources>

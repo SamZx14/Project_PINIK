@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pinik</string>
+
+    <string name="splash_logo_description">Pinik logo</string>
+    <string name="splash_loading">Loading your next adventure…</string>
+        <string name="open_menu">Open menu</string>
+        <string name="hello_traveler">Hello, Traveler</string>
+        <string name="ready_for_adventure">Ready for a new adventure?</string>
+        <string name="open_notifications">Open notifications</string>
+
+        <string name="upcoming_tour">Upcoming Tour</string>
+        <string name="sajek_valley_tour_description">Sajek Valley tour</string>
+        <string name="sajek_valley_trip">Sajek Valley Trip</string>
+        <string name="tour_date">20 – 22 May, 2025</string>
+        <string name="tour_location">Tour location</string>
+        <string name="sajek_bangladesh">Sajek, Bangladesh</string>
+        <string name="tour_duration">3 Days 2 Nights</string>
+        <string name="open_tour">Open tour</string>
+
+        <string name="itinerary">Itinerary</string>
+        <string name="vote">Vote</string>
+        <string name="expenses">Expenses</string>
+        <string name="tasks">Tasks</string>
+        <string name="map">Map</string>
+        <string name="members">Members</string>
+        <string name="photos">Photos</string>
+        <string name="more">More</string>
+
+        <string name="recent_activity">Recent Activity</string>
+
+        <string name="home">Home</string>
+        <string name="tours">Tours</string>
+        <string name="add_tour">Add tour</string>
+        <string name="chat">Chat</string>
+        <string name="profile">Profile</string>
+
+    <string name="home_greeting_user">Hello, %1$s</string>
+    <string name="home_greeting_default">Hello </string>
+    <!-- Header -->
+    <string name="home_open_menu">Open menu</string>
+    <string name="home_ready_for_adventure">Ready for a new adventure?</string>
+    <string name="home_open_notifications">Open notifications</string>
+
+    <!-- Upcoming tour -->
+    <string name="home_upcoming_tour">Upcoming Tour</string>
+    <string name="home_sajek_valley_tour_description">Sajek Valley tour</string>
+    <string name="home_sajek_valley_trip">Sajek Valley Trip</string>
+    <string name="home_tour_date">20 – 22 May, 2025</string>
+    <string name="home_tour_location_description">Tour location</string>
+    <string name="home_sajek_bangladesh">Sajek, Bangladesh</string>
+    <string name="home_tour_duration">3 Days 2 Nights</string>
+    <string name="home_open_tour">Open tour</string>
+
+    <!-- Features -->
+    <string name="home_itinerary">Itinerary</string>
+    <string name="home_vote">Vote</string>
+    <string name="home_expenses">Expenses</string>
+    <string name="home_tasks">Tasks</string>
+    <string name="home_map">Map</string>
+    <string name="home_members">Members</string>
+    <string name="home_photos">Photos</string>
+    <string name="home_more">More</string>
+
+    <!-- Recent activity -->
+    <string name="home_recent_activity">Recent Activity</string>
+    <string name="home_avatar_s">S</string>
+    <string name="home_avatar_m">M</string>
+    <string name="home_activity_samira_vote">Samira voted for “Sajek Valley”</string>
+    <string name="home_time_two_minutes">2m ago</string>
+    <string name="home_activity_mushfiq_expense">Mushfiq added a new expense</string>
+    <string name="home_time_fifteen_minutes">15m ago</string>
+    <string name="home_activity_motmayeen_photo">Motmayeen uploaded a photo</string>
+    <string name="home_time_one_hour">1h ago</string>
+
+    <!-- Bottom navigation -->
+    <string name="home_home">Home</string>
+    <string name="home_tours">Tours</string>
+    <string name="home_create_tour">Create tour</string>
+    <string name="home_chat">Chat</string>
+    <string name="home_profile">Profile</string>
+
+    <!-- Java messages -->
+    <string name="home_feature_menu">Menu</string>
+    <string name="home_feature_notifications">Notifications</string>
+    <string name="home_feature_tour_details">Tour details</string>
+    <string name="home_feature_itinerary">Itinerary</string>
+    <string name="home_feature_voting">Voting</string>
+    <string name="home_feature_expenses">Expenses</string>
+    <string name="home_feature_tasks">Tasks</string>
+    <string name="home_feature_map">Map</string>
+    <string name="home_feature_members">Members</string>
+    <string name="home_feature_photo_album">Photo album</string>
+    <string name="home_feature_more">More features</string>
+    <string name="home_feature_tours">Tours</string>
+    <string name="home_feature_create_tour">Create tour</string>
+    <string name="home_feature_chat">Chat</string>
+    <string name="home_feature_profile">Profile</string>
+    <string name="home_already_on_home">You are already on Home.</string>
+    <string name="home_feature_coming_soon">%1$s screen will be connected next.</string>
+    <string name="pinik_menu">Menu</string>
+    <string name="pinik_notifications">Notifications</string>
+    <string name="pinik_home_greeting_default">Hello </string>
+    <string name="pinik_home_greeting_user">Hello, %1$s </string>
+    <string name="pinik_ready_for_adventure">Ready for a new adventure?</string>
+    <string name="pinik_upcoming_tour">Upcoming Tour</string>
+    <string name="pinik_recent_activity">Recent Activity</string>
+
+    <string name="pinik_no_upcoming_tour">No upcoming tour yet</string>
+    <string name="pinik_no_upcoming_tour_description">Create your first tour and it will appear here automatically.</string>
+    <string name="pinik_create_tour">Create Tour</string>
+    <string name="pinik_create_new_tour">Create a New Tour</string>
+    <string name="pinik_create_tour_description">Add the destination and dates. Pinik will save the tour and update your Home page instantly.</string>
+    <string name="pinik_save_tour">Save Tour</string>
+    <string name="pinik_saving_tour">Saving…</string>
+    <string name="pinik_back">← Back</string>
+
+    <string name="pinik_tour_title">Tour title</string>
+    <string name="pinik_tour_title_hint">Example: Sajek Valley Trip</string>
+    <string name="pinik_tour_location">Location</string>
+    <string name="pinik_tour_location_hint">Example: Sajek, Bangladesh</string>
+    <string name="pinik_start_date">Start date</string>
+    <string name="pinik_end_date">End date</string>
+    <string name="pinik_select_date">Select date</string>
+    <string name="pinik_tour_description">Description</string>
+    <string name="pinik_tour_description_hint">Add transport, meeting point, hotel or other useful details.</string>
+
+    <string name="pinik_error_tour_title_required">Enter a tour title.</string>
+    <string name="pinik_error_tour_location_required">Enter the tour location.</string>
+    <string name="pinik_error_start_date_required">Select the start date.</string>
+    <string name="pinik_error_end_date_required">Select the end date.</string>
+    <string name="pinik_error_select_start_date_first">Select the start date first.</string>
+    <string name="pinik_error_invalid_end_date">The end date cannot be before the start date.</string>
+    <string name="pinik_tour_created_success">Tour created successfully.</string>
+    <string name="pinik_tour_create_failed">The tour could not be saved. Check your internet connection and Firestore rules.</string>
+
+    <string name="pinik_itinerary">Itinerary</string>
+    <string name="pinik_vote">Vote</string>
+    <string name="pinik_expenses">Expenses</string>
+    <string name="pinik_tasks">Tasks</string>
+    <string name="pinik_map">Map</string>
+    <string name="pinik_members">Members</string>
+    <string name="pinik_photos">Photos</string>
+    <string name="pinik_more">More</string>
+    <string name="pinik_home">Home</string>
+    <string name="pinik_tours">Tours</string>
+    <string name="pinik_chat">Chat</string>
+    <string name="pinik_profile">Profile</string>
+
+    <string name="pinik_icon_menu">☰</string>
+    <string name="pinik_icon_notification">●</string>
+    <string name="pinik_icon_location">⌖</string>
+    <string name="pinik_icon_arrow">→</string>
+    <string name="pinik_icon_itinerary">▣</string>
+    <string name="pinik_icon_vote">✓</string>
+    <string name="pinik_icon_expenses">৳</string>
+    <string name="pinik_icon_tasks">☑</string>
+    <string name="pinik_icon_map">⌖</string>
+    <string name="pinik_icon_members">♟</string>
+    <string name="pinik_icon_photos">▧</string>
+    <string name="pinik_icon_more">•••</string>
+    <string name="pinik_icon_home">⌂</string>
+    <string name="pinik_icon_tours">◇</string>
+    <string name="pinik_icon_add">＋</string>
+    <string name="pinik_icon_chat">◌</string>
+    <string name="pinik_icon_profile">♙</string>
+
+    <string name="pinik_open_menu">Open menu</string>
+    <string name="pinik_open_notifications">Open notifications</string>
+    <string name="pinik_open_upcoming_tour">Open upcoming tour</string>
+    <string name="pinik_add_tour_description">Create a tour</string>
+
+    <string name="pinik_no_recent_activity">No recent activity yet</string>
+    <string name="pinik_no_recent_activity_description">Actions such as creating a tour, voting, adding an expense, completing a task or uploading a photo will appear here.</string>
+    <string name="pinik_recent_activity_load_error">Recent activity could not be loaded. Check your connection and Firestore rules.</string>
+    <string name="pinik_activity_updated">A Pinik activity was updated.</string>
+    <string name="pinik_default_avatar_initial">P</string>
+    <string name="pinik_just_now">Just now</string>
+
+    <string name="pinik_activity_tour_created">%1$s created “%2$s”</string>
+    <string name="pinik_activity_vote_submitted">%1$s voted for %2$s</string>
+    <string name="pinik_activity_expense_added">%1$s added an expense of ৳%2$s</string>
+    <string name="pinik_activity_task_completed">%1$s completed “%2$s”</string>
+    <string name="pinik_activity_photo_uploaded">%1$s uploaded a photo</string>
+
+    <string name="pinik_tour_date_range">%1$s – %2$s</string>
+    <string name="pinik_tour_duration">%1$d %2$s • %3$d %4$s</string>
+    <string name="pinik_tour_duration_preview">1 Day • 0 Nights</string>
+    <string name="pinik_untitled_tour">Untitled tour</string>
+    <string name="pinik_location_not_added">Location not added</string>
+    <string name="pinik_no_description">No description was added.</string>
+    <string name="pinik_date_not_added">Dates not added</string>
+    <string name="pinik_tour_details_message">Location: %1$s\nDates: %2$s\n\n%3$s</string>
+    <string name="pinik_close">Close</string>
+
+    <string name="pinik_feature_next_message">%1$s will be connected in the next module.</string>
+    <string name="pinik_already_home">You are already on Home.</string>
+
+    <plurals name="pinik_day_label">
+        <item quantity="one">Day</item>
+        <item quantity="other">Days</item>
+    </plurals>
+
+    <plurals name="pinik_night_label">
+        <item quantity="one">Night</item>
+        <item quantity="other">Nights</item>
+    </plurals>
+
+    <plurals name="pinik_minutes_ago">
+        <item quantity="one">%d min ago</item>
+        <item quantity="other">%d mins ago</item>
+    </plurals>
+
+    <plurals name="pinik_hours_ago">
+        <item quantity="one">%d hr ago</item>
+        <item quantity="other">%d hrs ago</item>
+    </plurals>
+
+    <plurals name="pinik_days_ago">
+        <item quantity="one">%d day ago</item>
+        <item quantity="other">%d days ago</item>
+    </plurals>
+</resources>

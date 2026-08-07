@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/registerMain"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <!-- Background Image -->
+
+    <ImageView
+        android:id="@+id/imageRegisterBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/forgot_and_registration" />
+
+    <!-- Dark Gradient Overlay -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_login_overlay" />
+
+    <!-- Scrollable Content -->
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/registerScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:fillViewport="true"
+        android:overScrollMode="never">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingStart="22dp"
+            android:paddingTop="22dp"
+            android:paddingEnd="22dp"
+            android:paddingBottom="36dp">
+
+            <!-- Logo -->
+
+            <ImageView
+                android:id="@+id/imageRegisterLogo"
+                android:layout_width="190dp"
+                android:layout_height="140dp"
+                android:contentDescription="Pinik logo"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo" />
+
+            <!-- App Name -->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textRegisterAppName"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:fontFamily="sans-serif-medium"-->
+<!--                android:text="Pinik"-->
+<!--                android:textColor="#FFFFFF"-->
+<!--                android:textSize="30sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/textRegisterTagline"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="2dp"-->
+<!--                android:text="Travel Together"-->
+<!--                android:textColor="#D9FFFFFF"-->
+<!--                android:textSize="14sp" />-->
+
+            <!-- Glass Card -->
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/registerCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                app:cardBackgroundColor="@color/pinik_glass_dark"
+                app:cardCornerRadius="28dp"
+                app:cardElevation="0dp"
+                app:strokeColor="#66FFFFFF"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="22dp">
+
+                    <TextView
+                        android:id="@+id/textCreateAccountTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Create Account"
+                        android:textColor="#FFFFFF"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textCreateAccountDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:lineSpacingExtra="2dp"
+                        android:text="Create your account and start planning memorable tours with your friends."
+                        android:textColor="#CCFFFFFF"
+                        android:textSize="14sp" />
+
+                    <!-- Full Name -->
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/layoutRegisterName"
+                        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="22dp"
+                        android:hint="Full name"
+                        app:boxBackgroundColor="#26FFFFFF"
+                        app:boxCornerRadiusBottomEnd="16dp"
+                        app:boxCornerRadiusBottomStart="16dp"
+                        app:boxCornerRadiusTopEnd="16dp"
+                        app:boxCornerRadiusTopStart="16dp"
+                        app:boxStrokeColor="#B3FFFFFF"
+                        app:hintTextColor="#E6FFFFFF"
+                        app:startIconDrawable="@android:drawable/ic_menu_myplaces"
+                        app:startIconTint="#FFFFFF">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextRegisterName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autofillHints="name"
+                            android:imeOptions="actionNext"
+                            android:inputType="textPersonName|textCapWords"
+                            android:maxLines="1"
+                            android:paddingTop="17dp"
+                            android:paddingBottom="17dp"
+                            android:textColor="#FFFFFF"
+                            android:textColorHint="#B3FFFFFF"
+                            android:textCursorDrawable="@null"
+                            android:textSize="16sp" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!-- Email -->
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/layoutRegisterEmail"
+                        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="14dp"
+                        android:hint="Email address"
+                        app:boxBackgroundColor="#26FFFFFF"
+                        app:boxCornerRadiusBottomEnd="16dp"
+                        app:boxCornerRadiusBottomStart="16dp"
+                        app:boxCornerRadiusTopEnd="16dp"
+                        app:boxCornerRadiusTopStart="16dp"
+                        app:boxStrokeColor="#B3FFFFFF"
+                        app:hintTextColor="#E6FFFFFF"
+                        app:startIconDrawable="@android:drawable/ic_dialog_email"
+                        app:startIconTint="#FFFFFF">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextRegisterEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autofillHints="emailAddress"
+                            android:imeOptions="actionNext"
+                            android:inputType="textEmailAddress"
+                            android:maxLines="1"
+                            android:paddingTop="17dp"
+                            android:paddingBottom="17dp"
+                            android:textColor="#FFFFFF"
+                            android:textColorHint="#B3FFFFFF"
+                            android:textCursorDrawable="@null"
+                            android:textSize="16sp" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!-- Password -->
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/layoutRegisterPassword"
+                        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="14dp"
+                        android:hint="Password"
+                        app:boxBackgroundColor="#26FFFFFF"
+                        app:boxCornerRadiusBottomEnd="16dp"
+                        app:boxCornerRadiusBottomStart="16dp"
+                        app:boxCornerRadiusTopEnd="16dp"
+                        app:boxCornerRadiusTopStart="16dp"
+                        app:boxStrokeColor="#B3FFFFFF"
+                        app:endIconMode="password_toggle"
+                        app:endIconTint="#FFFFFF"
+                        app:hintTextColor="#E6FFFFFF"
+                        app:startIconDrawable="@android:drawable/ic_lock_lock"
+                        app:startIconTint="#FFFFFF">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextRegisterPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autofillHints="newPassword"
+                            android:imeOptions="actionNext"
+                            android:inputType="textPassword"
+                            android:maxLines="1"
+                            android:paddingTop="17dp"
+                            android:paddingBottom="17dp"
+                            android:textColor="#FFFFFF"
+                            android:textColorHint="#B3FFFFFF"
+                            android:textCursorDrawable="@null"
+                            android:textSize="16sp" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <TextView
+                        android:id="@+id/textPasswordRequirement"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="Use at least 8 characters."
+                        android:textColor="#B3FFFFFF"
+                        android:textSize="12sp" />
+
+                    <!-- Confirm Password -->
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/layoutConfirmPassword"
+                        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:hint="Confirm password"
+                        app:boxBackgroundColor="#26FFFFFF"
+                        app:boxCornerRadiusBottomEnd="16dp"
+                        app:boxCornerRadiusBottomStart="16dp"
+                        app:boxCornerRadiusTopEnd="16dp"
+                        app:boxCornerRadiusTopStart="16dp"
+                        app:boxStrokeColor="#B3FFFFFF"
+                        app:endIconMode="password_toggle"
+                        app:endIconTint="#FFFFFF"
+                        app:hintTextColor="#E6FFFFFF"
+                        app:startIconDrawable="@android:drawable/ic_lock_lock"
+                        app:startIconTint="#FFFFFF">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/editTextConfirmPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:autofillHints="newPassword"
+                            android:imeOptions="actionDone"
+                            android:inputType="textPassword"
+                            android:maxLines="1"
+                            android:paddingTop="17dp"
+                            android:paddingBottom="17dp"
+                            android:textColor="#FFFFFF"
+                            android:textColorHint="#B3FFFFFF"
+                            android:textCursorDrawable="@null"
+                            android:textSize="16sp" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!-- Register Button -->
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/buttonRegister"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:layout_marginTop="24dp"
+                        android:backgroundTint="#197653"
+                        android:text="Create Account"
+                        android:textAllCaps="false"
+                        android:textColor="#FFFFFF"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        app:cornerRadius="16dp"
+                        app:elevation="4dp" />
+
+                    <ProgressBar
+                        android:id="@+id/progressRegister"
+                        style="?android:attr/progressBarStyle"
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="14dp"
+                        android:indeterminateTint="#FFFFFF"
+                        android:visibility="gone" />
+
+                    <!-- Login Link -->
+
+                    <TextView
+                        android:id="@+id/textBackToLogin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp"
+                        android:text="Already have an account?  Log in"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/textRegisterTerms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:gravity="center"
+                android:lineSpacingExtra="2dp"
+                android:text="By creating an account, you agree to Pinik's Terms and Privacy Policy."
+                android:textColor="#CCFFFFFF"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</FrameLayout>

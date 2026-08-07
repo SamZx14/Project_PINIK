@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pinik_green">#174D3C</color>
+    <color name="pinik_green_dark">#10392D</color>
+    <color name="pinik_cream">#F8F4E9</color>
+    <color name="pinik_light_green">#E4EEE8</color>
+    <color name="pinik_text">#1C2C26</color>
+    <color name="pinik_gray">#6F7C76</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="pinik_home_surface">#F8FBFA</color>
+    <color name="pinik_home_text">#10231D</color>
+    <color name="pinik_home_green">#0B7A5A</color>
+    <color name="pinik_home_muted">#6B7B75</color>
+    <color name="pinik_home_border">#E1ECE7</color>
+    <color name="pinik_home_green_dark">#064B3B</color>
+    <color name="pinik_home_blue">#1E78D7</color>
+    <color name="pinik_home_orange">#F39A18</color>
+    <color name="pinik_home_gold">#B67B00</color>
+    <color name="pinik_home_red">#D94B5B</color>
+    <color name="pinik_home_tile_blue">#EAF4FC</color>
+    <color name="pinik_home_tile_yellow">#FFF6DE</color>
+    <color name="pinik_home_tile_cream">#FBF6E8</color>
+    <color name="pinik_home_tile_green">#EAF6F0</color>
+    <color name="pinik_home_tile_pink">#FBEDEF</color>
+
+    <color name="pinik_white">#FFFFFFFF</color>
+    <color name="pinik_text_primary">#FFFFFFFF</color>
+    <color name="pinik_text_secondary">#D9FFFFFF</color>
+    <color name="pinik_text_muted">#B8FFFFFF</color>
+
+    <color name="pinik_glass_dark">#8A0A1D17</color>
+    <color name="pinik_glass_darker">#B30A1D17</color>
+    <color name="pinik_glass_light">#38FFFFFF</color>
+    <color name="pinik_glass_input">#24FFFFFF</color>
+    <color name="pinik_glass_stroke">#70FFFFFF</color>
+
+    <color name="pinik_accent_green">#22A779</color>
+    <color name="pinik_accent_green_dark">#0D6F53</color>
+    <color name="pinik_accent_yellow">#FFD765</color>
+    <color name="pinik_accent_blue">#54B8FF</color>
+    <color name="pinik_accent_orange">#FFAD4D</color>
+    <color name="pinik_accent_red">#FF7272</color>
+
+    <color name="pinik_activity_tour">#168B68</color>
+    <color name="pinik_activity_vote">#E09C2D</color>
+    <color name="pinik_activity_expense">#3D8DDE</color>
+    <color name="pinik_activity_task">#7A5DD7</color>
+    <color name="pinik_activity_photo">#D85883</color>
+</resources>

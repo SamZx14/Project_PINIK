@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pinik_no_new_notifications">You have no unread notifications.</string>
+    <string name="pinik_notifications_marked_read">Notifications marked as read.</string>
+    <string name="pinik_notifications_mark_read_failed">Notifications could not be updated. Please try again.</string>
+</resources>
